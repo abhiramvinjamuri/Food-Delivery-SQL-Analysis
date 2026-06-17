@@ -106,18 +106,6 @@ The database consists of the following tables:
 
 ---
 
-## Sample Insights
-
-| Area | Observation |
-|--------|-------------|
-| Delivery Delays | Certain restaurants consistently showed higher delivery times than others |
-| Order Cancellations | Cancellation rates remained between 10% and 14% across cities |
-| Revenue | Chennai and Mumbai generated the highest overall revenue |
-| Customer Retention | A significant number of customers had been inactive for more than 90 days |
-| Delivery Partners | Performance varied considerably across delivery partners |
-
----
-
 ## Project Structure
 
 ```text
@@ -140,5 +128,5 @@ Smart-Delivery-Analytics-System
 
 Abhiram Vinjamuri
 
-SQL • Data Analysis • 
+SQL • Data Analysis 
 
