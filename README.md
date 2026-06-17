@@ -32,7 +32,7 @@ The project uses 7 datasets containing operational data from a food delivery pla
 | Restaurants | 100 |
 | Orders | 10,000 |
 | Payments | 10,000 |
-| Ratings | 10,000 |
+| Ratings | 7,000 |
 | Delivery Partners | 200 |
 
 ---
@@ -106,18 +106,6 @@ The database consists of the following tables:
 
 ---
 
-## Sample Insights
-
-| Area | Observation |
-|--------|-------------|
-| Delivery Delays | Certain restaurants consistently showed higher delivery times than others |
-| Order Cancellations | Cancellation rates remained between 10% and 14% across cities |
-| Revenue | Chennai and Mumbai generated the highest overall revenue |
-| Customer Retention | A significant number of customers had been inactive for more than 90 days |
-| Delivery Partners | Performance varied considerably across delivery partners |
-
----
-
 ## Project Structure
 
 ```text
@@ -136,18 +124,9 @@ Smart-Delivery-Analytics-System
 ├── D6_Business_Insights_Report.pdf
 └── README.md
 ```
-
 ---
-
-## Key Takeaways
-
-This project demonstrates how SQL can be used to solve practical business problems by transforming raw operational data into meaningful insights. The analysis highlights opportunities to improve delivery efficiency, reduce cancellations, strengthen customer retention, optimise revenue, and monitor delivery partner performance.
-
----
-
-## Author
 
 Abhiram Vinjamuri
 
-SQL • Data Analysis • 
+SQL • Data Analysis 
 
