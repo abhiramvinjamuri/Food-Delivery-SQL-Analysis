@@ -136,16 +136,7 @@ Smart-Delivery-Analytics-System
 ├── D6_Business_Insights_Report.pdf
 └── README.md
 ```
-
 ---
-
-## Key Takeaways
-
-This project demonstrates how SQL can be used to solve practical business problems by transforming raw operational data into meaningful insights. The analysis highlights opportunities to improve delivery efficiency, reduce cancellations, strengthen customer retention, optimise revenue, and monitor delivery partner performance.
-
----
-
-## Author
 
 Abhiram Vinjamuri
 
