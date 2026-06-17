@@ -32,7 +32,7 @@ The project uses 7 datasets containing operational data from a food delivery pla
 | Restaurants | 100 |
 | Orders | 10,000 |
 | Payments | 10,000 |
-| Ratings | 10,000 |
+| Ratings | 7,000 |
 | Delivery Partners | 200 |
 
 ---
