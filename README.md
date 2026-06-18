@@ -216,7 +216,6 @@ Smart-Delivery-Analytics-System
 ├── D5_Revenue_Optimisation.sql
 ├── D5_Customer_Retention.sql
 ├── D5_Delivery_Partner_Performance.sql
-├── D5_Exploratory_Analysis_Queries.sql
 └── README.md
 ```
 ---
