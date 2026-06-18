@@ -105,7 +105,7 @@ The database consists of the following tables:
 - Partner rating analysis
 
 ---
-## Business Problems Solved & Key Findings
+## Key Findings & Recommendations
 
 ### 1. Delivery Delays
 
@@ -217,7 +217,6 @@ Smart-Delivery-Analytics-System
 ├── D5_Customer_Retention.sql
 ├── D5_Delivery_Partner_Performance.sql
 ├── D5_Exploratory_Analysis_Queries.sql
-├── D6_Business_Insights_Report.pdf
 └── README.md
 ```
 ---
