@@ -7,20 +7,6 @@ The project uses relational database concepts, SQL queries, Common Table Express
 
 ---
 
-## Project Objectives
-
-The analysis focuses on five major business areas:
-
-| Problem Area | Objective |
-|-------------|------------|
-| Delivery Delays | Identify causes of delayed deliveries and improve operational efficiency |
-| Order Cancellations | Understand cancellation patterns and reduce revenue leakage |
-| Revenue Optimisation | Discover revenue drivers and growth opportunities |
-| Customer Retention | Identify inactive customers and reduce churn |
-| Delivery Partner Performance | Evaluate partner efficiency and customer experience |
-
----
-
 ## Dataset Overview
 
 The project uses 7 datasets containing operational data from a food delivery platform.
