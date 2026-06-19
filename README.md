@@ -191,7 +191,7 @@ Customer ratings also varied between partners. The highest-rated partners receiv
 ## Project Structure
 
 ```text
-Smart-Delivery-Analytics-System
+Food-Delivery-SQL-Analysis
 │
 ├── D1_ER_Diagram.pdf
 ├── D2_Table_Creation.sql
@@ -202,6 +202,8 @@ Smart-Delivery-Analytics-System
 ├── D5_Revenue_Optimisation.sql
 ├── D5_Customer_Retention.sql
 ├── D5_Delivery_Partner_Performance.sql
+├── D5_Exploratory_Analysis_Queries.sql
+├── D6_Business_Insights_Report.pdf
 └── README.md
 ```
 ---
