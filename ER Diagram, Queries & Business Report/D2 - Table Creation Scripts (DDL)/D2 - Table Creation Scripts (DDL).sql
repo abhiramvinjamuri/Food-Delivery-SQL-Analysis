@@ -215,11 +215,4 @@ desc orders;
 --     status
 -- FROM orders_stage;
 -- Final Validation:
--- SELECT COUNT(*) FROM orders;
--- Result:
--- 	• Total Records Loaded: 10,000
--- 	• Delivered Orders: 8,197
--- 	• Cancelled Orders: 1,195
--- 	• Pending Orders: 608
--- Blank values in delivered_time were retained as NULL because cancelled and pending orders were not delivered. Therefore, NULL represents valid business data rather than a data quality issue.
-
+-- 
