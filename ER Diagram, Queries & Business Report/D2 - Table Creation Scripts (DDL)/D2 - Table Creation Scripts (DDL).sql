@@ -45,14 +45,11 @@ CREATE TABLE orders (
     delivery_fee DECIMAL(10,2) NOT NULL,
     status VARCHAR(20) NOT NULL,
 
-    FOREIGN KEY (customer_id)
-        REFERENCES customers(customer_id),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
 
-    FOREIGN KEY (restaurant_id)
-        REFERENCES restaurants(restaurant_id),
+    FOREIGN KEY (restaurant_id) REFERENCES restaurants(restaurant_id),
 
-    FOREIGN KEY (partner_id)
-        REFERENCES delivery_partners(partner_id)
+    FOREIGN KEY (partner_id) REFERENCES delivery_partners(partner_id)
 );
 
 desc orders;
@@ -68,8 +65,7 @@ CREATE TABLE payments (
     payment_mode VARCHAR(30) NOT NULL,
     amount DECIMAL(10,2) NOT NULL,
 
-    FOREIGN KEY (order_id)
-        REFERENCES orders(order_id)
+    FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
 
 
@@ -159,9 +155,7 @@ CREATE TABLE ratings (
     customer_rating DECIMAL(2,1),
     feedback TEXT,
 
-    FOREIGN KEY (order_id)
-        REFERENCES orders(order_id),
-
+    FOREIGN KEY (order_id) REFERENCES orders(order_id),
     CHECK (customer_rating BETWEEN 1.0 AND 5.0)
 );
 
@@ -173,8 +167,7 @@ CREATE TABLE customer_behavior (
     last_order_days INT,
     churn_flag TINYINT,
 
-    FOREIGN KEY (customer_id)
-        REFERENCES customers(customer_id)
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
 
 SELECT COUNT(*) FROM customers;
